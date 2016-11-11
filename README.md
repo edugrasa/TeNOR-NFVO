@@ -1,6 +1,6 @@
 <img src="./ui/app/images/tenor_logo.png" height=150 />
 
-TeNOR, NFV Orchestrator platform developed by the [T-NOVA](http://www.t-nova.eu), is used as bases for SESAME NFV to handle the entire NFV lifecycle management.  
+TeNOR, NFV Orchestrator platform developed by the [T-NOVA](http://www.t-nova.eu), is used as bases for the SESAME NFVO to handle the entire NFV lifecycle management.  
 
 ## Prerequisites
 - Ruby >= 2.2.5 (installation provided in dependencies/install_dependencies.sh)
