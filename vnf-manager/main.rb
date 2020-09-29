@@ -13,7 +13,7 @@
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
-# limitations under the License.
+# limitations under the License. 
 #
 # Set environment
 ENV['RACK_ENV'] ||= 'development'
@@ -25,6 +25,7 @@ require 'logstash-logger'
 
 # Require the bundler gem and then call Bundler.require to load in all gems
 # listed in Gemfile.
+# Bundler is really important for this class
 require 'bundler'
 Bundler.require :default, ENV['RACK_ENV'].to_sym
 
